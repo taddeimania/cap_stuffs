@@ -1,6 +1,17 @@
 set :application, 'cap_stuff'
 set :repo_url, 'git@github.com:taddeimania/cap_stuffs.git'
 
+# Cap Django Settings
+set :django_settings_dir, 'hello/settings'
+set :pip_requirements, 'hello/requirements/base.txt'
+set :keep_releases, 5
+set :nginx, true
+set :django_project_dir, 'hello/manage.py'
+set :deploy_to, '/var/www'
+set :wsgi_file, 'hello.wsgi'
+set :stage, :production
+set :django_settings, 'dev'
+
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
 # set :deploy_to, '/var/www/my_app'
