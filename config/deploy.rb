@@ -2,7 +2,7 @@ set :application, 'cap_stuff'
 set :repo_url, 'git@github.com:taddeimania/cap_stuffs.git'
 
 # Cap Django Settings
-set :django_settings_dir, 'hello/settings'
+set :django_settings_dir, 'hello/hello/settings'
 set :pip_requirements, 'hello/requirements/base.txt'
 set :keep_releases, 5
 set :nginx, true
