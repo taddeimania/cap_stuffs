@@ -6,7 +6,7 @@ set :django_settings_dir, 'hello/settings'
 set :pip_requirements, 'hello/requirements/base.txt'
 set :keep_releases, 5
 set :nginx, true
-set :django_project_dir, 'hello/manage.py'
+set :django_project_dir, 'hello'
 set :deploy_to, '/var/www'
 set :wsgi_file, 'hello.wsgi'
 set :stage, :production
