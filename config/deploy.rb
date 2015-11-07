@@ -8,7 +8,7 @@ set :keep_releases, 5
 set :nginx, true
 set :django_project_dir, 'hello'
 set :deploy_to, '/var/www'
-set :wsgi_file, 'hello.wsgi'
+set :wsgi_file, 'hello.hello.wsgi'
 set :stage, :production
 set :django_settings, 'dev'
 
